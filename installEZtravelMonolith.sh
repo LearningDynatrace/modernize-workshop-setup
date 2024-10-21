@@ -69,7 +69,7 @@ server {
 
 echo "*** Install default-jre ***"
 printf "\n\n***** JavaRuntime  install ***\n" >> $LOGFILE 2>&1 
-apt install -y openjdk-8-jre-headless >> $LOGFILE 2>&1
+apt install -y openjdk-11-jdk >> $LOGFILE 2>&1
 
 echo "*** Download EasyTravel ***"
 printf "\n\n***** Download, install and configure EasyTravel ***\n" >> $LOGFILE 2>&1 

@@ -175,7 +175,7 @@ Resources:
               \ $(lsb_release -cs) stable\"\n"
             - "sudo apt-get update\n"
             - "sudo apt-get install -y docker-ce docker-ce-cli containerd.io\n"
-            - "sudo apt-get install -y git jq\n"
+            - "sudo apt-get install -y git jq openjdk-11-jdk\n"
             - "useradd -s /bin/bash -d /home/workshop/ -m -G sudo -p $(openssl passwd\
               \ -1 Workshop123#) workshop\n"
             - "sudo mkdir -p /home/workshop\n"
