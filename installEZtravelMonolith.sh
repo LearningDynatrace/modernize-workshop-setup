@@ -74,7 +74,7 @@ apt install -y openjdk-8-jre-headless >> $LOGFILE 2>&1
 echo "*** Download EasyTravel ***"
 printf "\n\n***** Download, install and configure EasyTravel ***\n" >> $LOGFILE 2>&1 
 { cd $UNIX_USER_HOME_PATH ;\
- wget -nv -O dynatrace-easytravel-linux-x86_64.jar http://dexya6d9gs5s.cloudfront.net/latest/dynatrace-easytravel-linux-x86_64.jar ;\
+ wget -O dynatrace-easytravel-linux-x86_64.jar https://etinstallers.demoability.dynatracelabs.com/latest/dynatrace-easytravel-linux-x86_64.jar ;\
  java -jar dynatrace-easytravel-linux-x86_64.jar -y ;\
  chmod 755 -R easytravel-2.0.0-x64 ; }  >> $LOGFILE 2>&1  
 
