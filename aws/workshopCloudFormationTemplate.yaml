@@ -179,7 +179,7 @@ Resources:
             - "useradd -s /bin/bash -d /home/workshop/ -m -G sudo -p $(openssl passwd\
               \ -1 Workshop123#) workshop\n"
             - "sudo mkdir -p /home/workshop\n"
-            - "git clone https://github.com/dt-demos/modernize-workshop-setup.git\
+            - "git clone https://github.com/LearningDynatrace/modernize-workshop-setup.git\
               \ /home/workshop/modernize-workshop-setup\n"
             - "sudo chown workshop:workshop -R /home/workshop\n"
             - "sleep 60\n"
@@ -244,7 +244,7 @@ Resources:
             - "useradd -s /bin/bash -d /home/workshop/ -m -G sudo -p $(openssl passwd\
               \ -1 Workshop123#) workshop\n"
             - "sudo mkdir -p /home/workshop\n"
-            - "git clone https://github.com/dt-demos/modernize-workshop-setup.git\
+            - "git clone https://github.com/LearningDynatrace/modernize-workshop-setup.git\
               \ /home/workshop/modernize-workshop-setup\n"
             - "sudo chown workshop:workshop -R /home/workshop\n"
             - "sudo usermod -a -G sudo workshop\n"
